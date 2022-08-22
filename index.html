@@ -1,14 +1,15 @@
 <!doctype html>
-<html>
+<html lang="pl">
 
 <head>
-    <title>Konwerter walut by Dar3cz3Q</title>
+    <title>Konwerter walut</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chroma=1" />
 
-    <meta name="description" content="Strona internetowa która zawiera przelicznik różnych wartości." />
-    <meta name="keywords" content="wartość, przelicznik, przeliczanie, liczenie, kalkulator, temperatura, waluta, przelicznik walut, kalkulator podstawowy," />
+    <meta name="description" content="Konwerter walut online" />
+    <meta name="keywords"
+        content="wartość, przelicznik, przeliczanie, liczenie, kalkulator, waluta, przelicznik walut, kalkulator podstawowy," />
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -26,6 +27,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
     <link rel="Shortcut icon" href="favicon.png" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-THX7RNJ00C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-THX7RNJ00C');
+    </script>
 </head>
 
 <body data-theme="dark" data-primary-language="PL" onselectstart="return false;">
@@ -81,13 +92,15 @@
                     <div class="calculate-container flexstyle">
                         <div class="currency-set-container flexstyle">
                             <div class="currency-single-container flexstyle">
-                                <div class="currency-button click-animation-container flexstyle" data-set-currency-type="first" data-animation="1"></div>
+                                <div class="currency-button click-animation-container flexstyle"
+                                    data-set-currency-type="first" data-animation="1"></div>
                             </div>
                             <div class="currency-arrow-container flexstyle">
                                 <i class="icon-right-open"></i>
                             </div>
                             <div class="currency-single-container flexstyle">
-                                <div class="currency-button click-animation-container flexstyle" data-set-currency-type="second" data-animation="2"></div>
+                                <div class="currency-button click-animation-container flexstyle"
+                                    data-set-currency-type="second" data-animation="2"></div>
                             </div>
                         </div>
                         <div class="value-input-container flexstyle">
@@ -104,9 +117,6 @@
                     <div class="calculate-button-container flexstyle" data-calculate-button="inactive">
                         <div class="calculate-button click-animation-container flexstyle" data-animation="3">
                             <i class="icon-ok"></i>
-                        </div>
-                        <div class="show-currency-list-button flexstyle">
-                            <i class="icon-th-list"></i>
                         </div>
                     </div>
                     <div class="additional-container flexstyle">
